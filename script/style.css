@@ -1,0 +1,132 @@
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: sans-serif;
+  }
+  
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: sans-serif;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Для мобильных устройств */
+@media only screen and (max-width: 480px) {
+  form {
+    max-width: 100%;
+    padding: 10px;
+  }
+  label {
+    font-size: 14px;
+  }
+  input[type="text"],
+  textarea,
+  select {
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  input[type="submit"] {
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+}
+
+/* Для планшетов */
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  form {
+    max-width: 80%;
+    padding: 20px;
+  }
+  label {
+    font-size: 18px;
+  }
+  input[type="text"],
+  textarea,
+  select {
+    font-size: 20px;
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+  input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 22px;
+  }
+}
+
+/* Для настольных устройств */
+@media only screen and (min-width: 1025px) {
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  label {
+    font-size: 20px;
+  }
+  input[type="text"],
+  textarea,
+  select {
+    font-size: 16px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+}
+
+  
