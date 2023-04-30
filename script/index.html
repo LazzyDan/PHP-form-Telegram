@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free vps</title>
+</head>
+<body>
+    <form action="confirm.php" method="post">
+        <label for="server_type">Тип сервера</label>
+        <select id="server_type" name="server_type" required>
+          <option value="">Выберите тип сервера</option>
+          <option value="hyper_v">Hyper-V</option>
+        </select>
+        
+        <label for="server_location">Местонахождение сервера</label>
+        <select id="server_location" name="server_location" required>
+          <option value="">Выберите местонахождение сервера</option>
+          <option value="moscow">Москва</option>
+        </select>
+        
+        <label for="server_usage">Предполагаемое использование сервера</label>
+        <textarea id="server_usage" name="server_usage" rows="4" cols="50" placeholder="Опишите предполагаемое использование сервера" required></textarea>
+        
+        <label for="hyper_v_version">Операционная система</label>
+        <select id="hyper_v_version" name="hyper_v_version" required>
+          <option value="">Выберите ОС</option>
+          <option value="Ubuntu Server 18.04">Ubuntu Server 18.04</option>
+        </select>
+        
+        <label for="telegram_username">Ник в Telegram</label>
+        <input type="text" id="telegram_username" name="telegram_username" placeholder="Напишите ник без @" required>
+        
+        <label for="name">Как к вам обращаться ?</label>
+		<input type="text" id="name" name="name" placeholder="Пишите своё настоящее имя" required>
+        
+        <input type="submit" value="Отправить заказ">
+      </form>
+      
+</body>
+</html>
