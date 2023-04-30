@@ -20,3 +20,19 @@
 ```sh
   https://site.com/senter
   ```
+  
+  ### Настройка
+
+_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+
+1. В файле confirm.php замените следующие параметры на свои:
+```sh
+   $botToken = 'токен сюда';
+   ```
+```sh
+   $chatId = 'Ваш чат айди';
+   ```
+```sh
+   'url' => 'полный адрес вашего сайта'
+   ```
+2. Можно запускать!
